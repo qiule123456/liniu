@@ -1,0 +1,640 @@
+*{margin: 0; padding: 0;}
+ul{list-style-type: none;}
+body{font: normal normal 16px/1.5 "宋体";}
+h1,h2,h3{font-weight: normal;}
+a{text-decoration: none; color: #4d4d4d;}
+
+
+.w960{ width: 960px; margin-left: auto; margin-right: auto;}
+.fl{float: left;}
+.fr{float: right;}
+
+.logo {
+    background-color: #e65224;
+    height: 73px;
+    padding-top: 35px;
+}
+
+.logo ul {
+    overflow: hidden;
+}
+
+.logo ul p {
+    color: #fff;
+}
+
+.logo ul p:hover {
+    color: brown;
+    cursor: pointer;
+}
+
+.logo ul h1 a {
+    display: block;
+    width: 182px;
+    height: 45px;
+    text-indent: -999px;
+    background: url("../images/logo.png") no-repeat;
+    padding-right: 15px;
+}
+
+.logo .w960 .fr .fr {
+    padding-left: 15px;
+}
+
+/* top结束 */
+
+/* 首页开始 */
+
+.wraper .shou {
+    height: 80px;
+}
+
+.wraper .shouyebiaotou li {
+    display: inline-block;
+    margin-right: 80px;
+    font-size: 20px;
+    color: #4d4d4d;
+    line-height: 80px;
+    cursor: pointer;
+}
+
+.wraper .shouyebiaotou li:hover {
+    color: #e75225;
+}
+
+.wraper .shou .shouyebiaotou .ye {
+    text-indent: 1em;
+    color: #e75225;
+}
+
+/* 首页结束 */
+
+/* 稳定收益开始 */
+
+.wraper .sangetu {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.wraper .sangetu .wen1 {
+    float: left;
+    margin-top: 20px;
+    margin-right: 263px;
+}
+
+.wraper .sangetu .wen1 dl {
+    display: inline-block;
+    width: 148px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.wraper .sangetu .wen1 dl dt {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wraper .sangetu .wen1 dl dd {
+    font-size: 13px;
+}
+
+.wraper .sangetu .wen1 dl dt:hover {
+    color: #e65224;
+}
+
+.wraper .sangetu .wen1 dl dd:hover {
+    color: #e65224;
+}
+
+.wraper .sangetu .wen2 {
+    float: left;
+    margin-top: 20px;
+}
+
+.wraper .sangetu .wen2 dl {
+    display: inline-block;
+    width: 148px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.wraper .sangetu .wen2 dl dt {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wraper .sangetu .wen2 dl dd {
+    font-size: 13px;
+}
+
+.wraper .sangetu .wen2 dl dt:hover {
+    color: #e65224;
+}
+
+.wraper .sangetu .wen2 dl dd:hover {
+    color: #e65224;
+}
+
+.wraper .sangetu .wen3 {
+    float: right;
+    margin-top: 20px;
+}
+
+.wraper .sangetu .wen3 dl {
+    display: inline-block;
+    width: 148px;
+    line-height: 30px;
+    margin-left: 5px;
+}
+
+.wraper .sangetu .wen3 dl dt {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.wraper .sangetu .wen3 dl dd {
+    font-size: 13px;
+}
+
+.wraper .sangetu .wen3 dl dt:hover {
+    color: #e65224;
+}
+
+.wraper .sangetu .wen3 dl dd:hover {
+    color: #e65224;
+}
+
+/* 稳定收益结束 */
+
+/* 主要业务开始 */
+
+.wraper .zhu {
+    overflow: hidden;
+}
+
+.wraper .zhu h1 {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.wraper .zhu .tu1 {
+    float: left;
+    margin-right: 20px;
+}
+
+.wraper .zhu .tu1 h2 {
+    color: #ff6537;
+    padding: 15px 0 15px;
+    cursor: pointer;
+    margin-left: -131px;
+}
+
+.wraper .zhu .tu1 p {
+    width: 210px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu1 span {
+    width: 102px;
+    height: 40px;
+    background-color: #4d4d4d;
+    color: #ededc8;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu1 span:hover {
+    color: #e65224;
+}
+
+.wraper .zhu .tu2 {
+    float: left;
+    margin-right: 20px;
+}
+
+.wraper .zhu .tu2 h2 {
+    color: #ff6537;
+    padding: 15px 0 15px;
+    cursor: pointer;
+    margin-left: -131px;
+}
+
+.wraper .zhu .tu2 p {
+    width: 210px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu2 span {
+    width: 102px;
+    height: 40px;
+    background-color: #4d4d4d;
+    color: #ededc8;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu2 span:hover {
+    color: #e65224;
+}
+
+.wraper .zhu .tu3 {
+    float: left;
+    margin-right: 20px;
+}
+
+.wraper .zhu .tu3 h2 {
+    color: #ff6537;
+    padding: 15px 0 15px;
+    cursor: pointer;
+    margin-left: -131px;
+}
+
+.wraper .zhu .tu3 p {
+    width: 210px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu3 span {
+    width: 102px;
+    height: 40px;
+    background-color: #4d4d4d;
+    color: #ededc8;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu3 span:hover {
+    color: #e65224;
+}
+
+.wraper .zhu .tu4 {
+    float: right;
+}
+
+.wraper .zhu .tu4 h2 {
+    color: #ff6537;
+    padding: 15px 0 15px;
+    cursor: pointer;
+    margin-left: -131px;
+}
+
+.wraper .zhu .tu4 p {
+    width: 210px;
+    font-weight: bold;
+    font-size: 13px;
+    margin-bottom: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu4 span {
+    width: 102px;
+    height: 40px;
+    background-color: #4d4d4d;
+    color: #ededc8;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.wraper .zhu .tu4 span:hover {
+    color: #e65224;
+}
+
+/* 主要业务结束 */
+
+/* 关于我们开始 */
+
+.wraper .guanyuwomen {
+    margin-top: 60px;
+}
+
+.wraper .guanyuwomen .bb {
+    background: url("../images/about.jpg");
+}
+
+.wraper .guanyuwomen .bb h1, h2, h3 {
+    text-align: center;
+    color: #fff;
+}
+
+.wraper .guanyuwomen .bb h1 {
+    padding: 29px 0 27px;
+}
+
+.wraper .guanyuwomen .bb .l {
+    margin-bottom: 20px;
+}
+
+.wraper .guanyuwomen .bb .h {
+    padding: 0 0 36px 0;
+}
+
+/* 关于我们结束 */
+
+/* 新闻资讯开始 */
+
+.wraper .newsAndProblem .news .ppp{
+    display: contents;
+    font-size: 25px;
+    font-weight: bold;
+  
+}
+.wraper .newsAndProblem .news ul{
+    padding: 8px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    /* 新闻资讯结束 */
+    /* 尾部两部分开始 */
+    .wraper .hezuo {
+        background-color: #f6f6f6;
+    }
+    .wraper .hezuo h1 {
+        padding-top: 50px;
+        font-size: 25px;
+        font-weight: bold;
+        padding-bottom: 60px;
+    }
+    .wraper .hezuo .u {
+        width: 100%;
+    }
+    .wraper .hezuo .u li {
+        width: 115px;
+        height: 40px;
+        margin-right: 70px;
+        margin-bottom: 30px;
+        display: inline-block;
+        vertical-align: middle;
+        /* background: url(../images/index_sp.png) no-repeat 0px 3px; */
+    }
+    .wraper .hezuo .u .jiashi {
+        background: url(../images/index_sp.png) no-repeat 0px 3px;
+    }
+    .wraper .hezuo .u .zhongyou {
+        background: url(../images/index_sp.png) no-repeat 0px -56px;
+    }
+    .wraper .hezuo .u .zhaoshang {
+        background: url(../images/index_sp.png) no-repeat 0px -115px;
+    }
+    .wraper .hezuo .u .jianxin {
+        background: url(../images/index_sp.png) no-repeat 0px -169px;
+    }
+    .wraper .hezuo .u .huaxia {
+        background: url(../images/index_sp.png) no-repeat 0px -220px;
+    }
+    /* 黑底开始 */
+    .wraper .ei {
+        background-color: #2c2c2c;
+        overflow: hidden;
+        border-bottom: #6b6b6b 1px solid;
+    }
+    .wraper .ei .wei1 {
+        float: left;
+        margin-top: 30px;
+        margin-right: 80px;
+    }
+    .wraper .ei .wei1 h2 {
+        font-size: 20px;
+        margin-bottom: 25px;
+        color: #a9a9a9;
+        margin-left: -161px;
+    }
+    .wraper .ei .wei1 p {
+        margin: 15px 0;
+        font-size: 12px;
+        color: #a9a9a9;
+    }
+    .wraper .ei .wei2 {
+        float: left;
+        margin-right: 84px;
+        margin-top: 30px;
+    }
+    .wraper .ei .wei2 h2 {
+        font-size: 20px;
+        color: #a9a9a9;
+        margin: 5px 0;
+        margin-left: -81px;
+    }
+    .wraper .ei .wei2 .hh2 {
+        margin-left: -123px;
+    }
+    .wraper .ei .wei2 p {
+        font-size: 12px;
+        color: #a9a9a9;
+        margin: 5px 0;
+    }
+    .wraper .ei .wei2 .dd {
+        margin-top: 10px;
+        height: 42px;
+        background: url(../images/index_sp.png) no-repeat -172px -5px;
+        width: 213px;
+    }
+    .wraper .ei .wei3 {
+        float: left;
+        margin-right: 90px;
+        margin-top: 30px;
+    }
+    .wraper .ei .wei3 h2 {
+        font-size: 20px;
+        color: #a9a9a9;
+    }
+    .wraper .ei .wei3 p {
+        font-size: 12px;
+        color: #a9a9a9;
+        margin: 10px 0;
+    }
+    .wraper .ei .wei4 {
+        float: left;
+        margin-top: 30px;
+    }
+    .wraper .ei .wei4 h2 {
+        font-size: 20px;
+        color: #a9a9a9;
+    }
+    .wraper .ei .wei4 p {
+        font-size: 12px;
+        color: #a9a9a9;
+        margin: 10px 0;
+    }
+    .wraper .ee {
+        background-color: #2c2c2c;
+    }
+    .wraper .ee p {
+        color: #a9a9a9;
+        font-size: 10px;
+        padding: 5px 0;
+        text-align: center;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .newsAndProblem {
+        /* border: 1px solid red; */
+        margin-top: 60px;
+        height: 353px;
+    }
+
+    .newsAndProblem h3 {
+        font-size: 24px;
+        font-weight: bold;
+        display: inline-block;
+    }
+
+    .newsAndProblem .news {
+        
+    }
+
+    .newsAndProblem .news li {
+        width: 295px;
+        float: left;
+    }
+
+    .newsAndProblem .news p {
+        float: left;
+        width: 200px;
+        /* 实现...的效果 */
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .wraper .w960 .fl ul li p {
+        width: 170px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .newsAndProblem .news span {
+        float: right;
+    }
+
+    .newsAndProblem .news .first {
+        margin-right: 28px;
+        float: left;
+    }
+    .newsAndProblem .news .er{
+        float: right;
+    }
+    .newsAndProblem .news .first ul li .p{
+     width: 4px;
+     height: 4px;
+     border-radius: 50%;
+         color: #ff6537;
+         line-height: 2.5;
+
+    }
+    .newsAndProblem .news a {
+        line-height: 2.5;
+    }
+
+    .newsAndProblem .news a:hover {
+        color: #e75225;
+    }
+
+    .newsAndProblem .problem {
+        width: 320px;
+    }
+    .newsAndProblem .problem .pp{
+        font-size: 22px;
+        font-weight: bold;
+    }
+    .newsAndProblem .problem li {
+        padding-bottom: 20px;
+        font-size: 15px;
+       padding-top: 10px;
+        line-height: 3;
+        border-bottom: 1px dashed #ccc;
+    }
+    .newsAndProblem .problem li p{
+        font-size: 10px;
+    }
+    .newsAndProblem .problem li.last {
+        border-bottom: none;
+    }
+
+    .newsAndProblem .problem .ask,
+    .newsAndProblem .problem .answer {
+        line-height: 2;
+        background-repeat: no-repeat;
+        width: 240px;
+        padding-left: 40px;
+        background-position: left center;
+        ;
+    }
+
+    .newsAndProblem .problem .ask {
+        background-image: url("../images/q\(1\).jpg");
+        font-size: 16px;
+    }
+
+    .newsAndProblem .problem .answer {
+        background-image: url("../images/q2.jpg");
+        color: #646464;
+        font-size: 14px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
